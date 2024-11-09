@@ -3,7 +3,7 @@ print('Словарь:', my_dict)
 print('Год рождения Роза:', my_dict['Роза'])
 print('Год рождения Степа:', my_dict.get('Степа', 'нет такого ключа'))
 my_dict.update({'Александр': 1997, 'Клеопатра': 2001})
-removed_year = my_dict.pop('Салима')
+removed_year = my_dict.pop('Клеопатра')
 print('Значение удалённого элемента \'Клеопатра\':', removed_year)
 print('Изменённый словарь:', my_dict)
 
